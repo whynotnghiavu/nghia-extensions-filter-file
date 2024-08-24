@@ -9,7 +9,7 @@ import shutil
 
 
 # Đường dẫn đến folder
-folder_path = r"C:\Users\vvn20206205\Desktop\rrrr\MyTextToSpeech"
+folder_path = r"C:\Users\vvn20206205\Desktop\rrrr\TinhGiay"
 
 
 # Tạo thư mục "_nghia_ok"
