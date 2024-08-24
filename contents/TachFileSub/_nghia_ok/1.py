@@ -37,5 +37,6 @@ def TachFileSub(root_dir):
         new_file = MyNewPath(sub_file)[
             :-len(MyConst.V1_VVN_NGHIA.replace(".nghia", ""))]+MyConst.V2_VVN_NGHIA
         if not os.path.exists(new_file):
+            print(f"🚀 {sub_file}")
             new_sub = FormatFileSub(sub_file)
             new_sub.save(new_file, encoding='utf-8')
