@@ -9,7 +9,7 @@ import shutil
 
 
 # Đường dẫn đến folder
-folder_path = r"C:\Users\vvn20206205\Desktop\rrrr\KiemTraMp4_1Sub"
+folder_path = r"C:\Users\vvn20206205\Desktop\rrrr\TaoFileSub"
 
 
 # Tạo thư mục "_nghia_ok"
