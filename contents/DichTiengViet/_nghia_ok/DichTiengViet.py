@@ -12,9 +12,14 @@ def DichTiengViet():
     if   os.path.exists(file_tieng_viet):
         os.remove(file_tieng_viet)
 
+
+
     # pyautogui.hotkey('win', '1')
     # pyautogui.hotkey('win', '4')
     pyautogui.hotkey('win', '3')
+
+
+    
     sleep(5)
     pyautogui.typewrite(['enter'])
     pyautogui.typewrite(['enter'])
