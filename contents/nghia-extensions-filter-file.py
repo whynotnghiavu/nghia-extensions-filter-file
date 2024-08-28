@@ -3,11 +3,6 @@ import glob
 import shutil
 
 
-
-
-
-
-
 # Đường dẫn đến folder
 folder_path = r"C:\Users\vvn20206205\Desktop\rrrr\TinhGiay"
 
@@ -55,5 +50,3 @@ for extension in extensions:
 
                 files.remove(other_file_path)
                 shutil.move(other_file_path, _nghia_filter)
-
- 
